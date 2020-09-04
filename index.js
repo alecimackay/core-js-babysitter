@@ -10,8 +10,8 @@ export default class CoreJSBabySitter {
     dateNight() {
 	process.stdout.on('data', data => {
 	    if (data.includes('Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!') && 
-	 	hasAlreadyAskedForAJob) {
-	            hasAlreadyAskedForAJob = true; 
+	 	this.hasAlreadyAskedForAJob) {
+	            this.hasAlreadyAskedForAJob = true; 
 	   	    process.stdout.clearLine();
 	    }
 	});
