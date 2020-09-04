@@ -1,0 +1,14 @@
+{
+  "name": "core-js-babysitter",
+  "version": "1.0.0",
+  "description": "Removes core-js job spam, gives option for initial log",
+  "main": "index.js",
+  "keywords": [
+    "core-js",
+    "babysitter",
+    "core-js-job"
+  ],
+  "author": "Alec Mackay",
+  "license": "ISC",
+  "type": "module"
+}
